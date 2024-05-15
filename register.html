@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+</head>
+
+<body>
+    <fieldset style="background-color: rgb(134, 1, 1); color: white;">
+        <ul>
+            <li>
+                <a href="Homepage.html" style="color: white;">Home Page</a>
+            </li>
+            <li>
+                <a href="Login.html" style="color: white;">Login</a>
+            </li>
+        </ul>
+    </fieldset>
+    <h3 style="text-align: center; font-size: 30px;">Fill in your details</h3>
+    <form>
+        <fieldset
+            style="background-color: black; color: white; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 18px;">
+            <label for="first">FIRST NAME</label>
+            <input id="first" placeholder="eg John" required>
+            <br>
+            <label for="surname">SURNAME</label>
+            <input id="surname" placeholder="eg Joe" required>
+            <br>
+            <label for="username">USERNAME</label>
+            <input id="username" placeholder="John1999" required>
+            <br>
+            <label>PHONE NUMBER</label>
+            <input type="number" required>
+            <br>
+            <label for="mail">Email</label>
+            <input type="email" placeholder="example@mail.com" id="mail" required>
+            <br>
+            <label>GENDER</label>
+            <br>
+            <input type="radio" id="sex" name="gender">
+            <label for="sex">Male</label>
+            <br>
+            <input type="radio" id="fema" name="gender">
+            <Label for="fema">Female</Label>
+            <br>
+            <label>DATE OF BIRTH</label>
+            <input type="date" required>
+            <br>
+            <label>STATE</label>
+            <select>
+                <option>---Select---</option>
+                <option>Abia</option>
+                <option>Adamawa</option>
+                <option>Akawa Ibom</option>
+                <option>Anambra</option>
+                <option>Bauchi</option>
+                <option>Bayelsa</option>
+                <option>Benue</option>
+                <option>Borno</option>
+                <option>Cross River</option>
+                <option>Delta</option>
+                <option>Ebonyi</option>
+                <option>Edo</option>
+                <option>Ekiti</option>
+                <option>Enugu</option>
+                <option>Abuja</option>
+                <option>Gombe</option>
+                <option>Imo</option>
+                <option>Jigawa</option>
+                <option>Kaduna</option>
+                <option>Kana</option>
+                <option>Katsina</option>
+                <option>Kebbi</option>
+                <option>kogi</option>
+                <option>Kwara</option>
+                <option>Lagos</option>
+                <option>Nasarawa</option>
+                <option>Niger</option>
+                <option>Ogun</option>
+                <option>Ondo</option>
+                <option>Osun</option>
+                <option selected>Oyo</option>
+                <option>Plateau</option>
+                <option>Rivers</option>
+                <option>Sokoto</option>
+                <option>Taraba</option>
+                <option>Yobe</option>
+                <option>Zamfara</option>
+            </select>
+            <br>
+            <label for="pswd">PASSWORD</label>
+            <input type="password" id="pswd" required>
+            <br>
+            <label for="confirm">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm" required>
+            <br>
+            <label>WHERE DID YOU HEAR ABOUT US?</label>
+            <br>
+            <input type="radio" id="face" name="hear">
+            <label for="face">FACEBOOK</label>
+            <br>
+            <input type="radio" id="twitt" name="hear">
+            <label for="twitt">TWITTER</label>
+            <br>
+            <input type="radio" id="bill" name="hear">
+            <label for="bill">BILLBOARD</label>
+            <br>
+            <input type="radio" id="frnd" name="hear">
+            <label for="frnd">FRIEND</label>
+            <br>
+            <label for="code">REFERRAL CODE</label>
+            <input id="code" placeholder="Optional">
+            <br>
+            <input type="submit">
+        </form>
+        <button><a href="Homepage.html">Back</a></button>
+    </fieldset>
+</body>
+
+</html>
